@@ -1,6 +1,6 @@
 # Project1_SignalProcessing
 https://colab.research.google.com/github/Royc4515/Project1_SignalProcessing/blob/main/Project1_SignalProcessing.ipynb
-```markdown
+
 <div dir="rtl">
 ## תקציר מנהלי
 [cite_start]פרויקט זה עוסק ביישום שיטות מתקדמות לעיבוד אותות דיגיטליים על נתונים נוירופיזיולוגיים מורכבים[cite: 262]. [cite_start]העבודה מחולקת לשני נדבכים מרכזיים: ניתוח אותות רציפים המופקים מדימות אופטי של פעילות חשמלית באמצעות צבעים רגישי מתח (Voltage-Sensitive Dye Imaging - VSDI) [cite: 304][cite_start], וניתוח תבניות ירי בדידות ברשתות עצביות (רכבות ספייקים)[cite: 262]. [cite_start]באמצעות פיתוחים מתמטיים קפדניים, סינונים במרחב הזמן והתדר, וחישובים סטטיסטיים של פונקציות קורלציה, אופיינו המנגנונים הפיזיולוגיים והקשרים הסינפטיים ברשת[cite: 262, 304].
