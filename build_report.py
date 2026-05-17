@@ -12,7 +12,7 @@ OUT = 'report.html'
 SKIP_CELLS = {0, 1}  # Colab badge + git clone
 
 # Code cells whose CODE we hide but whose OUTPUT we keep (data-loading bookkeeping)
-HIDE_CODE_KEEP_OUTPUT = {2}
+HIDE_CODE_KEEP_OUTPUT = {3}
 
 with open(NB, 'r', encoding='utf-8') as f:
     nb = json.load(f)
