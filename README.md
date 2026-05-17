@@ -7,7 +7,10 @@
 
 | קובץ | תיאור |
 |---|---|
-| `Project1_SignalProcessing.ipynb` | מחברת Colab עם כל הקוד והדו"ח המלא |
+| [`Project1_SignalProcessing.ipynb`](Project1_SignalProcessing.ipynb) | מחברת Colab עם כל הקוד והדו"ח המלא |
+| [`Project 1 — Signal Processing — REPORT.pdf`](Project%201%20%E2%80%94%20Signal%20Processing%20%E2%80%94%20REPORT.pdf) | 📄 הדו"ח להגשה בפורמט PDF |
+| [`report.html`](report.html) | 🌐 הדו"ח בפורמט HTML (RTL, MathJax) — מקור ה-PDF |
+| [`build_report.py`](build_report.py) | סקריפט שמייצר את `report.html` מהמחברת |
 | `Neural_data.csv` | נתוני VSDI: ΔF/F לאורך 30 שניות ב-50 Hz |
 | `spike_trains.csv` | רכבות ספייקים של נוירונים A–E, 100 ניסיונות, 1000 Hz |
 | `graphs/` | פלטי גרפים שמורים מההרצה |
@@ -18,6 +21,14 @@
 המחברת רצה ב-Google Colab. ההרצה אוטומטית — התא הראשון מוריד את `Neural_data.csv` ו-`spike_trains.csv` מ-GitHub אם הם לא קיימים. שאר התאים תלויים בסדר ההרצה.
 
 קישור ישיר ל-Colab: [פתח במחברת](https://colab.research.google.com/github/Royc4515/Project1_SignalProcessing/blob/main/Project1_SignalProcessing.ipynb).
+
+## הדו"ח להגשה
+
+- 📄 **PDF (להגשה ל-LAMDA):** [`Project 1 — Signal Processing — REPORT.pdf`](Project%201%20%E2%80%94%20Signal%20Processing%20%E2%80%94%20REPORT.pdf)
+- 🌐 **HTML (לקריאה בדפדפן):** [`report.html`](report.html) — עברית RTL, נוסחאות LaTeX רנדרות עם MathJax, תמונות מוטבעות.
+- 📓 **המקור:** [`Project1_SignalProcessing.ipynb`](Project1_SignalProcessing.ipynb) — מחברת Jupyter/Colab עם הקוד + תאי markdown של הדו"ח.
+
+ה-PDF נוצר מ-`report.html` (Print → Save as PDF). הסקריפט [`build_report.py`](build_report.py) מייצר את ה-HTML מהמחברת.
 
 ## מבנה הדו"ח
 
