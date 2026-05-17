@@ -1,0 +1,16 @@
+# Lecture/tutorial materials (private)
+context/
+
+# Editor / IDE
+.claude/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
